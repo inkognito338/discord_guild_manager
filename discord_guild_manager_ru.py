@@ -87,7 +87,7 @@ async def import_data(file_name):
 
 @client.event
 async def on_ready():
-    print(f'Вошел как {client.user}')
+    print(f'{client.user}')
     if args.mode == 'export':
         asyncio.create_task(export_data(args.file))
     elif args.mode == 'import':
