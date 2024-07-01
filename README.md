@@ -13,6 +13,6 @@ pip install discord
 ## Usage
 
 ```python
-python discord_guild_manager.py export
-python discord_guild_manager.py import
+python discord_guild_manager.py export test.json
+python discord_guild_manager.py import test.json
 ```
