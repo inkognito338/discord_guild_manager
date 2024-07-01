@@ -10,7 +10,7 @@
 pip install discord
 ```
 
-## Usage
+## Запуск
 
 ```python
 python discord_guild_manager.py export test.json
