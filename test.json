@@ -1,0 +1,23 @@
+{
+    "123456789012345678": {
+        "id": 123456789012345678,
+        "name": "Example Server",
+        "description": "This is an example server.",
+        "roles": {
+            "Admin": 987654321098765432,
+            "Moderator": 876543210987654321,
+            "Member": 765432109876543210
+        },
+        "channels": {
+            "General": {
+                "welcome": 234567890123456789,
+                "rules": 345678901234567890,
+                "general-chat": 456789012345678901
+            },
+            "Voice Channels": {
+                "General Voice": 567890123456789012,
+                "Music": 678901234567890123
+            }
+        }
+    }
+}
